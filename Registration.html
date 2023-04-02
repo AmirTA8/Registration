@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Registration </title>
+</head>
+<style>
+
+html { 
+  background: linear-gradient(90deg , #e66465, #9198e5); 
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+  .rectangle {
+    margin-left: 600px;
+    margin-right: 500px;
+    margin-top: 70px;
+    width: 30%;
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    background-color:whitesmoke ;
+
+
+
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+
+
+
+
+  }
+
+  .input-texte {
+    height: 40px;
+    
+
+
+  }
+
+  .input {
+    padding: 10px;
+
+    display: block;
+    line-height: 30px;
+
+  }
+
+  .titre {
+    margin-left: 20px;
+
+  }
+
+  .genre {
+    
+    padding: 10px;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+
+  button {
+    background: linear-gradient(90deg , #e66465, #9198e5);  
+    width: 370spx;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+  }
+
+
+  .square {
+  height: 578px;
+  width: 90px;
+  top: -580px;
+  right: -480px; 
+  position: relative;
+  border-color: black;
+  border: 2px;
+  border-style: solid;
+  background-image: url();
+  background-color: black;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  background-image: url(https://images.unsplash.com/photo-1530906622963-8a60586a49c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+  
+}
+  .texte{
+    font-family: 'georgia';
+    
+    color: white;
+    font-weight: 900; 
+    text-transform: uppercase; 
+    right: 735px;
+    font-size: 40px;
+    letter-spacing: 14px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 335px;
+    border-color: red ;
+    border: 2px;
+    border-style: double; 
+    margin-bottom: 50 px;
+    
+    
+    
+
+  }
+
+
+</style>
+
+<body>
+
+
+  <div class="rectangle">
+    <div class="titre">
+      <h1><u></u>Reg</u>istration</h1>
+    </div>
+    <form action="page.html">
+      <div class="registration">
+        <div class="box">
+          <div class="input">
+            <label>Full Name</label><br>
+            <input class="input-texte" type="text" placeholder="Enter your name" />
+          </div>
+          <div class="input">
+            <label>Username</label><br>
+            <input class="input-texte" type="text" placeholder="Enter your Username" /><br>
+          </div>
+          <div class="input">
+            <label>Email</label><br>
+            <input class="input-texte" type="email" placeholder="Enter your email" />
+          </div>
+          <div class="input">
+            <label>Phone Number</label><br>
+            <input class="input-texte" type="text" placeholder="Enter your number" />
+          </div>
+          <div class="input">
+            <label>Password</label><br>
+            <input class="input-texte" type="password" placeholder="Enter your Password" />
+          </div>
+          <div class="input">
+            <label>Confirm Password</label><br>
+            <input class="input-texte" type="password" placeholder="Confirm your password" />
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="titre">
+        <h1>Gendre</h1>
+      </div>
+
+      <form>
+
+
+        <div class="genre">
+          <label>Male</label>
+          <input type="radio" name="genre" />
+          <label>female</label>
+          <input type="radio" name="genre" />
+          <label>Prefer not to say</label>
+          <input type="radio" name="genre" />
+        </div>
+      </form>
+
+
+
+
+      <button>
+        <span>Register</span>
+      </button>
+
+  </div>
+  
+  
+  
+</body>
+
+</html>
